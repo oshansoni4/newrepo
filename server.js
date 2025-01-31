@@ -30,7 +30,7 @@ const taskSchema = new mongoose.Schema({
   pincode: String,
   location: String,
   landmark: String,
-  selectedModelName: String,
+  product: String,
   selectedModel: Object,  // Store model details
   serialNumber: String,
   warrantyStatus: Object, // Warranty status with expiry date
