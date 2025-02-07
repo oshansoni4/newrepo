@@ -22,7 +22,7 @@ mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
 // Task Schema (Updated with new fields)
 const taskSchema = new mongoose.Schema({
   name: String,
-  email: String,
+   email: String,
   phone: String,
   altPhone: String,  // New field: Alternative Phone
   state: String,
@@ -43,7 +43,14 @@ const taskSchema = new mongoose.Schema({
   taskStatus: String,         // New field: Task Status
   assignEngineer: String,     // New field: Assign Engineer
   contactNo: String,        // New field: Engineer Contact No.
-  images: [String],           // New field: Images (for storing image URLs or file names)
+  dealer: String,        // New field: Engineer Contact No.
+  complaintNotes: String,        // New field: Engineer Contact No.
+  date: String,        // New field: Engineer Contact No.
+  asp: String,        // New field: Engineer Contact No.
+  aspName: String,        // New field: Engineer Contact No.
+  actionTaken: String,        // New field: Engineer Contact No.
+  customerFeedback: String,        // New field: Engineer Contact No.
+  images: [String],          // New field: Images (for storing image URLs or file names)
 });
 
 // Create Task model
