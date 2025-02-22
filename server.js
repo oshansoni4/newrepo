@@ -39,7 +39,7 @@ const taskSchema = new mongoose.Schema({
   status: String,
   complaintNumber: String,
   callType: String,           // New field: Call Type
-  additional: String,           // New field: Call Type
+  additionalStatus: String,           // New field: Call Type
   callSource: String,         // New field: Call Source
   taskStatus: String,         // New field: Task Status
   assignEngineer: String,     // New field: Assign Engineer
