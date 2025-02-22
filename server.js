@@ -39,12 +39,15 @@ const taskSchema = new mongoose.Schema({
   status: String,
   complaintNumber: String,
   callType: String,           // New field: Call Type
+  additional: String,           // New field: Call Type
   callSource: String,         // New field: Call Source
   taskStatus: String,         // New field: Task Status
   assignEngineer: String,     // New field: Assign Engineer
   contactNo: String,        // New field: Engineer Contact No.
   dealer: String,        // New field: Engineer Contact No.
   complaintNotes: String,        // New field: Engineer Contact No.
+  enginnerNotes: String,        // New field: Engineer Contact No.
+  customerFeedback: String,        // New field: Engineer Contact No.
   date: String,        // New field: Engineer Contact No.
   asp: String,        // New field: Engineer Contact No.
   aspName: String,        // New field: Engineer Contact No.
