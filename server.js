@@ -151,7 +151,8 @@ app.delete('/tasks/:id', async (req, res) => {
 
 
 // Start Server
-const port = process.env.PORT || 5002;
+const port = process.env.PORT || 5001;
 app.listen(port, () => {
   console.log(`🚀 Server running on port ${port}`);
 });
+
